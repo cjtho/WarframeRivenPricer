@@ -4,6 +4,10 @@ This project aims to predict the price of Warframe Rivens using a neural network
 
 ## Setup
 
+0. **Rename Folder**
+   - Rename the Folder from 'WarframeRivenPricer' to 'warframe_marketplace_predictor'.
+   - I hate directories and this part of coding.
+
 1. **Install Dependencies**
    - Ensure you have the necessary packages installed, primarily TensorFlow and essential data science libraries.
 
