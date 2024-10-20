@@ -1,0 +1,34 @@
+# Ignore all __pycache__ directories and compiled Python files within the broader scope and project directory
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore specific directories within warframe_marketplace_predictor
+training/model_data/
+old_stuff/
+misc/
+
+# Ignore specific files within data_files directory in warframe_marketplace_predictor
+data_files/attributes_data.json
+data_files/developer_summary_stats.json
+data_files/global_price_freq.json
+data_files/ig_weapon_stats.json
+data_files/items_data.json
+data_files/public_spreadsheet.csv
+data_files/raw_marketplace_data.json
+data_files/weapon_ranking_information.json
+
+# Ignore hidden directories and configuration files at the root level (outside warframe_marketplace_predictor)
+.anaconda/
+.cache/
+.conda/
+.condarc
+.config/
+.continuum/
+.gitconfig
+.gnupg/
+.ipython/
+.jupyter/
+.keras/
+.matplotlib/
+.idea/
